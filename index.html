@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="timer">
+      <h1>Reset</h1>
+      <div class="controls">
+        <input id="duration" value="9" />
+        <div>
+          <i id="start" class="fas fa-play-circle"></i>
+          <i id="pause" class="fas fa-pause-circle"></i>
+          <div>
+          <i id="repeat" class="fa fa-retweet" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <svg class="dial">
+        <circle id= "circle1"
+          fill="transparent"
+          stroke="#169914"
+          stroke-width="15"
+          r="190"
+          cx="0"
+          cy="200"
+          transform="rotate(-90 100 100)"
+        />
+      </svg>
+    </div>
+    <div class="timer2">
+      <h1>Trainer</h1>
+      <div class="controls2">
+        <input id="duration2" value="6" />
+        <div>
+          <i id="start2" class="fas fa-play-circle"></i>
+          <i id="pause2" class="fas fa-pause-circle"></i>
+          <div>
+          <i id="repeat2" class="fa fa-retweet" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <svg class="dial2">
+        <circle id="circle2"
+          fill="transparent"
+          stroke="#cf0404"
+          stroke-width="15"
+          r="190"
+          cx="0"
+          cy="200"
+          transform="rotate(-90 100 100)"
+        />
+      </svg>
+    </div>
+
+
+
+    <script src="timer.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

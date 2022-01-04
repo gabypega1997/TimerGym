@@ -1,0 +1,123 @@
+body{
+  background-color:#03161d;
+}
+h1{
+  color:#cf0404;
+  font-size: 100px;
+  text-align: center;
+}
+.timer h1 {
+  color: #169914;
+}
+span {
+  padding-left: 100px;
+}
+
+.dial {
+    height: 400px;
+    width: 400px;
+  }
+  
+.dial2{
+  height: 400px;
+  width: 400px;
+}
+  .timer {
+    position: relative;
+    display: inline-block;
+  }
+  .timer2{
+    position: relative;
+    display:inline-block;
+  }
+  
+  * {
+    font: inherit;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans',
+      'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  .timer input {
+    display: block;
+    border: none;
+    width: 250px;
+    font-size: 90px;
+    text-align: center;
+    color: rgb(116, 100, 31);
+    background-color: #03161d;
+    font-weight: 600;
+  }
+
+  .timer2 input{
+    display: block;
+    border: none;
+    width: 250px;
+    font-size: 90px;
+    text-align: center;
+    color: rgb(116, 100, 31);
+    background-color: #03161d;
+    font-weight: 600;
+  }
+  
+  .timer i{
+    border: none;
+    margin:10px;
+    font-size: 46px;
+    cursor: pointer;
+    color: rgb(90, 112, 94);
+  }
+
+  .timer2 i{
+    border: none;
+    margin: 10px;
+    font-size: 46px;
+    cursor: pointer;
+    color: rgb(90, 112, 94);
+  }
+  
+  .timer i:focus {
+    outline: none;
+  }
+  .timer2 i:focus{
+    outline: none;
+  }
+  
+  .timer input:focus {
+    outline: none;
+  }
+  .timer2 input:focus{
+    outline: none;
+  }
+  
+  .controls {
+    position: absolute;
+    top: 260px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .controls2{
+    position: absolute;
+    top: 260px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #repeat {
+    margin-left: 40px;
+  }
+  #repeat2 {
+    margin-left: 40px;
+  }

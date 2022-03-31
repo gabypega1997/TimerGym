@@ -53,3 +53,4 @@ const timer2 = new Timer (durationInput2, startButton2, pauseButton2,repeatButto
         }
     }
 });
+

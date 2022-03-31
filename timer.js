@@ -65,3 +65,4 @@ class Timer{
         this.durationInput.value = time.toFixed(2);
     }
 }
+

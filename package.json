@@ -1,0 +1,20 @@
+{
+  "name": "timer-gym",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabypega1997/TimerGym.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabypega1997/TimerGym/issues"
+  },
+  "homepage": "https://github.com/gabypega1997/TimerGym#readme"
+}

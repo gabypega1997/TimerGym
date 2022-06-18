@@ -18,6 +18,7 @@ class Timer{
     start = () => {
         if(this.isOn === false){
             if(this.onStart){
+                console.log(this.initialDurationInput)
                 this.onStart(this.timeRemaining);
                 this.durationBegining = this.timeRemaining;
 

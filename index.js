@@ -20,6 +20,7 @@ circle2.setAttribute("stroke-dasharray" , perimeter2);
 
 const timer = new Timer(durationInput, startButton, pauseButton,repeatButton, {
     onStart(totalDuration){
+        console.log(totalDuration)
         duration  = totalDuration;
     },
     onTick(timeRemaining){
